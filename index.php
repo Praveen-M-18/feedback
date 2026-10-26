@@ -23,7 +23,7 @@ if (isset($_POST['submit'])) {
     <style> 
         body { 
             font-family: Arial, sans-serif; 
-            background-color: #f2f2f2; 
+            background-color: #dbd6d6; 
             margin: 0; 
             padding: 0; 
         } 
@@ -50,7 +50,7 @@ if (isset($_POST['submit'])) {
         textarea { 
             width: 100%; 
             padding: 10px; 
-            border: 1px solid #ccc; 
+            border: 1px solid #aaa4a4; 
             border-radius: 5px; 
             box-sizing: border-box; 
             font-size: 14px; 
@@ -95,8 +95,10 @@ if (isset($_POST['submit'])) {
         <input type="email" name="email" required> 
         <label>Feedback</label> 
         <textarea name="message" rows="5" required></textarea> 
-        <input type="submit" name="submit" value="Submit Feedback" /> 
+        <input type="submit" name="submit" value="Submit" /> 
     </form> 
     <a href="./view.php">View Data</a> 
 </body> 
 </html>
+#git remote add origin
+#git push -u origin main

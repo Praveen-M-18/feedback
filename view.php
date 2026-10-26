@@ -15,7 +15,7 @@ include("db.php");
             font-family: Arial, sans-serif; 
         } 
         body { 
-            background: #f4f6f9; 
+            background: #b8cce9; 
             padding: 40px 20px; 
         } 
         .container { 
@@ -28,7 +28,7 @@ include("db.php");
         } 
         h1 { 
             text-align: center; 
-            color: #333; 
+            color: #3b3232; 
             margin-bottom: 25px; 
         } 
         table { 
@@ -37,7 +37,7 @@ include("db.php");
             margin-bottom: 25px; 
         } 
         th { 
-            background: #333; 
+            background: #464141; 
             color: white; 
             padding: 14px; 
             text-align: left; 
@@ -45,10 +45,10 @@ include("db.php");
         td { 
             padding: 12px 14px; 
             border-bottom: 1px solid #ddd; 
-            color: #444; 
+            color: #645656; 
         } 
         tr:hover { 
-            background: #f5f5f5; 
+            background: #b9b5b5; 
         } 
         .back-btn { 
             display: inline-block; 
